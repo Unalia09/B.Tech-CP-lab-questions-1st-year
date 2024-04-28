@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+      int a;
+      float b; 
+      char c;
+      double d;
+      unsigned int e;
+      a=10;
+      b=12.0;
+      c='f';
+      d=67.23;
+      e=23;
+      printf("a= %d , b= %f, c= %c, d= %lf, e=%u", a, b, c, d,e );
+      return 0;
+}
